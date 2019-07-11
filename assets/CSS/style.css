@@ -54,21 +54,19 @@ table {
 
 
 .RegFont {
-    color: #777777
-    
+    color: #777777   
 }
-
-background-image: url(./assets/css/furley_bg;
 
 body {
-    background: #ffffff;
+    background: url(../images/furley_bg.png);
 }
+
 h1 {
     background: #4aaaa5;
 }
+
 header {
-    height: 40px;
-    
+    height: 40px;   
 }
     
 h3 {
