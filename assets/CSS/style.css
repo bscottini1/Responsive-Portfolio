@@ -49,6 +49,9 @@ table {
 
 
 
+/*MY CODE BEGINS HERE */
+
+
 
 
 
@@ -61,13 +64,29 @@ body {
     background: url(../images/furley_bg.png);
 }
 
-h1 {
-    background: #4aaaa5;
+header {
+    height: 80px;   
+    background-color: #ffffff;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+
 }
 
-header {
-    height: 40px;   
+nav {
+    height: 40px;
+    float: right;
 }
+
+h1 {
+    background: #4aaaa5;
+    height: 80px;
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+}
+
+
     
 h3 {
     color: #4aaaa5;
@@ -86,7 +105,8 @@ main {
     margin: 20px auto;  
     border-top: solid .5px #ffffff;
     border-bottom: solid .5px #ffffff;
-
+    padding: 40px;
+    
 }
 
 footer {
