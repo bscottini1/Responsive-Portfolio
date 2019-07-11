@@ -47,13 +47,70 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
+
+.RegFont {
+    color: #777777
+    
+}
+
+background-image: url(./assets/css/furley_bg;
+
 body {
     background: #ffffff;
 }
 h1 {
     background: #4aaaa5;
 }
+header {
+    height: 40px;
+    
+}
+    
+h3 {
+    color: #4aaaa5;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid 1px #777777;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+            
+
+main {
+    background: #ffffff;
+    width: 50%;
+    margin: 20px auto;  
+    border-top: solid .5px #ffffff;
+    border-bottom: solid .5px #ffffff;
+
+}
 
 footer {
-    background: #666666
+    position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    background: #666666;
+    text-align: center;
+    color: white;
+    border-top: solid 10px #4aaaa5;
+    font-size: 10pt;
+    padding-bottom: 10px;
+    padding-top: 35px;
+
+}
+.footertext {
+    vertical-align: text-bottom;
+}
+
+img {
+    height: 150px;
+    float: left;
+    margin: 0px 10px 10px 0px;
 }
