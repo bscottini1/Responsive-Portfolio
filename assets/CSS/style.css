@@ -132,3 +132,33 @@ img {
     float: left;
     margin: 0px 10px 10px 0px;
 }
+
+h2 {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;    
+  
+}
+
+input {
+    width: 600px;
+    padding: 10px;
+    border: #666666 1px solid;
+    margin: 15px 10px 0px 10px;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 50%;
+    margin: 20px auto;  
+    border-top: solid .5px #ffffff;
+    border-bottom: solid .5px #ffffff;
+    padding: 40px;
+}
+    
+
+
