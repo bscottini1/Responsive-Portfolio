@@ -3,61 +3,47 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-
-
 
 /*MY CODE BEGINS HERE */
 
-
-
-
-
-
 .RegFont {
-    color: #777777   
+    color: #777777
 }
 
 body {
@@ -65,12 +51,11 @@ body {
 }
 
 header {
-    height: 80px;   
+    height: 80px;
     background-color: #ffffff;
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20pt;
-
 }
 
 nav {
@@ -84,10 +69,10 @@ h1 {
     width: 300px;
     float: left;
     margin-left: 100px;
+    text-align: center;
+    
 }
 
-
-    
 h3 {
     color: #4aaaa5;
     font-size: x-large;
@@ -97,16 +82,14 @@ h3 {
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
-            
 
 main {
     background: #ffffff;
     width: 50%;
-    margin: 20px auto;  
+    margin: 20px auto;
     border-top: solid .5px #ffffff;
     border-bottom: solid .5px #ffffff;
     padding: 40px;
-    
 }
 
 footer {
@@ -121,8 +104,8 @@ footer {
     font-size: 10pt;
     padding-bottom: 10px;
     padding-top: 35px;
-
 }
+
 .footertext {
     vertical-align: text-bottom;
 }
@@ -140,8 +123,7 @@ h2 {
 
 form {
     font-family: Arial, Helvetica, sans-serif;
-    color: #666666;    
-  
+    color: #666666;
 }
 
 input {
@@ -154,17 +136,36 @@ input {
 .container {
     background-color: #ffffff;
     width: 50%;
-    margin: 20px auto;  
+    margin: 20px auto;
     border-top: solid .5px #ffffff;
     border-bottom: solid .5px #ffffff;
     padding: 40px;
-} 
-    @media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 980px) {}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        float: none;
+        text-align: center;
         
     }
-    @media screen and (max-width: 768px)
-    @media screen and (max-width: 640px)
 
+    nav {
+        float: none;
+        text-align: center;
+        background-color: #ffffff;
+    }
 
-    
+    main {
+        margin-top: 80px;
+    }
 
+    .container {
+        background-color: transparent;
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 640px) {}
